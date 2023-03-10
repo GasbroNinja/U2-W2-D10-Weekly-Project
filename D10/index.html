@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="container-fluid p-0 bg-dark min-vh-100">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark d-flex justify-content-center mw-100">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-center mw-100">
             <div class="container p-0 mb-2">
                 <a class="navbar-brand" href="#">
                     <img class="img-fluid" width="130px"
@@ -22,8 +22,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
     
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav me-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto" ">
                         <li class="nav-item active fw-semibold">
                             <a class="nav-link text-light" href="#">Home <span class="visually-hidden-focusable">(current)</span></a>
                         </li>
@@ -96,15 +96,17 @@
                     </ul>
                   </div>
                 <div class="d-flex ">
-                    <div class="justify-content-end me-0 border px-3 py-1">
+                    <div class="justify-content-end me-0 border px-3 py-1 text-secondary border-secondary">
                     <i class="bi bi-bar-chart-steps"></i>
                     </div>
-                    <div class="justify-content-end me-0 border px-3 py-1">
+                    <div class="justify-content-end me-0 border px-3 py-1 text-secondary border-secondary">
                         <i class="bi bi-border-all bg-dark"></i>
                     </div>
                 </div>
             </div>
         </header>
+
+        <!-- PER LE TRANSITION CREARE FILE CSS A PARTE -->
 
         <div class="container-fluid p-0 mx-auto">
             <div class="container mb-2 p-0">
@@ -379,17 +381,6 @@
 
             
 
-
-
-            <!--<div class="row collapse show g-2 g-md-3 g-xl-5">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card border border-2 border-dark">
-                        <img src="assets/media/media0.webp"
-                            class="card-imgimg-top"  width="400px"alt="maldives" />
-                    </div>
-                </div>
-            </div>
-            -->
         </div>
 
 
@@ -397,7 +388,7 @@
             <div class="container mt-5 mb-2 p-0">
                 <h2 class="text-light">Watch It Again</h2>
             </div>
-            <div id="carouselExample" class="carousel slide d-none d-lg-block">
+            <div id="carouselExample1" class="carousel slide d-none d-lg-block">
                 <div class="carousel-inner">
                     <div class="carousel-item active ">
                         <div class="container px-0 mt-3">
@@ -651,11 +642,11 @@
                     </div>
 
                     <div class="container">
-                    <button class="carousel-control-prev justify-content-start text-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <button class="carousel-control-prev justify-content-start text-dark" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next justify-content-end text-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <button class="carousel-control-next justify-content-end text-dark" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
                         <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -672,11 +663,11 @@
         </div>
 
 
-        <div class="container-fluid p-0 mx-auto">
+        <div class="container-fluid p-0 mx-auto mb-5">
             <div class="container mt-5 mb-2 p-0">
                 <h2 class="text-light">New Releases</h2>
             </div>
-            <div id="carouselExample" class="carousel slide d-none d-lg-block">
+            <div id="carouselExample2" class="carousel slide d-none d-lg-block">
                 <div class="carousel-inner">
                     <div class="carousel-item active ">
                         <div class="container px-0 mt-3">
@@ -930,11 +921,11 @@
                     </div>
 
                     <div class="container">
-                    <button class="carousel-control-prev justify-content-start text-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <button class="carousel-control-prev justify-content-start text-dark" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next justify-content-end text-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <button class="carousel-control-next justify-content-end text-dark" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
                         <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -945,17 +936,29 @@
         </div>
 
 
+        
+        <div class="">
+                D-NONE senza il D-NONE
+                ACCROCCHIO per il FOOTER
+                D-NONE senza il D-NONE
+                ACCROCCHIO per il FOOTER
+                D-NONE senza il D-NONE
+                ACCROCCHIO per il FOOTER
+                D-NONE senza il D-NONE
+                ACCROCCHIO per il FOOTER
+        </div>
 
 
 
 
-        <footer class=" text-white fixed-bottom mx-5 px-5">
+
+        <footer class=" text-white mx-5 mt-5 px-5 pt-5">
             <div class="container d-flex flex-column align-items-start mb-3">
                 <div class="container text-secondary p-0">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                         <div class="col p-1">
                             <i class="bi bi-facebook display-5"></i>
-                            <i class="bi bi-youtube px-2 display-5"></i>
+                            <i class="bi bi-instagram px-2 display-5"></i>
                             <i class="bi bi-twitter px-2 display-5"></i>
                             <i class="bi bi-youtube px-2 display-5"></i>
                         </div>
@@ -1003,7 +1006,6 @@
                 <div class="container text-secondary p-0">
                     <div class="row row-cols-md-4">
                     <div class="col p-0 pt-3">© 1997-2019 Netflix, Inc. ..</div>
-    
                     </div>
             </div>  
         </footer>
